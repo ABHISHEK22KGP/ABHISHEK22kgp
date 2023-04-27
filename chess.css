@@ -1,0 +1,39 @@
+body{
+    background-color:blue;
+    margin:0;
+    text-align: center;
+    background-image:url("https://images.pexels.com/photos/814133/pexels-photo-814133.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.chessboard{
+    margin:0 auto;
+    height:640px;
+    width:640px;
+    border:solid;
+    border-width:10px;
+    border-color: black;
+    text-align: center;
+}
+.black{
+    display:inline-block;
+    background-color: black;
+    width:80px;
+    height:80px;
+    margin:-2px;
+    padding:0px;
+    border-width: 0px;
+}
+.white{
+    display:inline-block;
+    background-color: white;
+    width:80px;
+    height:80px;
+    margin:-2px;
+    padding:0px;
+    border-width:0px;
+}
+h1{
+    position:absolute;
+    top:300px;
+    right:2px;
+    color:yellow;
+}
